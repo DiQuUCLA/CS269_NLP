@@ -1,0 +1,36 @@
+Some breakthrough in previous years:
+    Identify the some phrase and words meaning
+
+Alright, Everyone want robots to teach them:)
+
+What we have today:
+    Machine Translation: not 100% precision but good
+    sentimental analysis
+    Text Classification
+    Question Answering
+    Natural language instruction
+    Digital personal assistant
+    Information Extraction
+    Language Comprehension
+
+What to learn in this course:
+    The NLP pipeline
+    NLP systems/applications
+    Build realistic NLP tools
+
+Key NLP challenge:
+    Ambiguity: Word sense/meaning ambiguity, PP attachment ambiguity, 
+               Pronoun reference ambiguity
+    Non-Statics
+    Human Bias in Structured Prediction: Gender Bias
+    Scale
+
+Key ML ideas in NLP:
+    Part of speech tagging
+    Syntactic parsing
+    Dependency Parsing
+    Semantic analysis
+        word sense disambiguation
+        Semantic role labeling
+
+

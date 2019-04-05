@@ -1,0 +1,34 @@
+Word Representation
+
+Before: Bag-of-Words with N-grams
+    Represent words as atomic symbols(Naive way)
+    Represent word as a "one-hot" vector
+
+    Problem:
+        Size of vector
+        Vector is too sparse
+        No similarity
+        Cannot represent new words
+
+    Some idea to solve problem:
+        Taxonomy (Word Category): Wordnet
+        Similarity = Clustering: Brown Cluster
+        MI(ci, cj) = Pr(<ci, cj>)log2(Pr(<ci, cj>) / Pr(<ci, *>) * Pr(<*, cj>))
+        Distributional representation
+            Linguistic items with similar distributions have similar meanings
+
+    Pretrained Word2vec:
+        Goolge
+        Glove
+        Facebook(fastText)
+
+    "Enriching word vectors with subword information":Char enhanced word representation
+    Multi-lingual embedding
+
+    Gensim: library
+
+PCA: Decompose the similarity space into a set of orthonormal basis vectors
+
+Word2Vec
+    LSA: A compact representaion of co-occurrence matrix
+    Word2Vec: Predict surrounding words(skip-gram)
